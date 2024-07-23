@@ -13,12 +13,12 @@ terraform {
   }
 }
 
-#Provider for Central India (default Provider
+#Provider-1 for Central India (default Provider
 provider "azurerm" {
   features {}
 }
 
-#Provider for Asutralia East
+#Provider-2 for Australia East
 provider "azurerm" {
   features {
     virtual_machine {
